@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vobee</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #4ade80, #22d3ee);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: transparent;
+      flex-wrap: wrap;
+    }
+
+    /* .logo {
+      max-width: 70px;
+      height: auto;
+      border-radius: 10px;
+      margin-right: 15px;
+    } */
+
+    .header-text {
+      text-align: center;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      color: white;
+      font-size: 28px;
+    }
+
+    .header-text p {
+      margin: 5px 0 0;
+      font-size: 18px;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* .image-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .image-container img {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+    } */
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background: #fff;
+    }
+
+    .footer a {
+      color: purple;
+      margin: 0 5px;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .copyright {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #666;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .header-text h1 {
+        font-size: 22px;
+      }
+      .header-text p {
+        font-size: 16px;
+      }
+      /* .logo {
+        max-width: 55px;
+      }
+      .image-container img {
+        max-width: 90%;
+      } */
+    }
+
+    @media (max-width: 480px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+      /* .logo {
+        margin: 0 0 10px;
+      } */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <!-- <img class="logo" src="logo.png" alt="Vobee Logo"> -->
+    <div class="header-text">
+      <h1>Vobee</h1>
+      <p>Make Friends & Show Yourself</p>
+    </div>
+  </div>
+
+  <!-- Image -->
+  <!--
+  <div class="image-container">
+    <img src="iphoneX-1.png" alt="App Preview">
+  </div>
+  -->
+
+  <!-- Footer -->
+  <div class="footer">
+    <a href="about.html">About us</a> |
+    <a href="contact.html">Contact Us</a> |
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="terms.html">Terms of Service</a> |
+    <a href="refund.html">Refund Policy</a> |
+    <a href="delete.html">Account Deletion Policy</a>
+    <div class="copyright">
+      Copyright © Dialextechnologies PVT ltd.
+    </div>
+  </div>
+
+</body>
+</html>
